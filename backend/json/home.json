@@ -1,0 +1,64 @@
+{
+    "currencies": [
+        {
+            "id": "bitcoin",
+            "name": "Bitcoin",
+            "value": "R$ 10.00",
+            "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/1.png?_=6f9d24a"
+        },
+        {
+            "id": "ethereum",
+            "name": "Ethereum",
+            "value": "R$ 20.00",
+            "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/1027.png?_=6f9d24a"
+        },
+        {
+            "id": "xrp",
+            "name": "XRP",
+            "value": "R$ 30.00",
+            "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/52.png?_=6f9d24a"
+        },
+        {
+            "id": "bitcoin_cash",
+            "name": "Bitcoin Cash",
+            "value": "R$ 40.00",
+            "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/1831.png?_=6f9d24a"
+        },
+        {
+            "id": "bitcoin_sv",
+            "name": "Bitcoin SV",
+            "value": "R$ 50.00",
+            "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/3602.png?_=6f9d24a"
+        },
+        {
+            "id": "tether",
+            "name": "Tether",
+            "value": "R$ 60.00",
+            "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/825.png?_=6f9d24a"
+        },
+        {
+            "id": "litecoin",
+            "name": "Litecoin",
+            "value": "R$ 70.00",
+            "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/2.png?_=6f9d24a"
+        },
+        {
+            "id": "eos",
+            "name": "EOS",
+            "value": "R$ 80.00",
+            "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/1765.png?_=6f9d24a"
+        },
+        {
+            "id": "binance_coin",
+            "name": "Binance Coin",
+            "value": "R$ 90.00",
+            "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/1839.png?_=6f9d24a"
+        },
+        {
+            "id": "stellar",
+            "name": "Stellar",
+            "value": "R$ 100.00",
+            "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/512.png?_=6f9d24a"
+        }
+    ]
+}
