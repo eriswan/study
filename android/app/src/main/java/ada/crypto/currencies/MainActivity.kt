@@ -2,20 +2,21 @@ package ada.crypto.currencies
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
 
-    private val txt by lazy { findViewById<TextView>(R.id.txt) }
+    private val list by lazy { findViewById<RecyclerView>(R.id.list) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        list.layoutManager = LinearLayoutManager(this)
+
         Requester().fetchHome({ currencies ->
-            txt.text = currencies.toString()
         }, { error ->
-            txt.text = error.message
             error.printStackTrace()
         })
     }
