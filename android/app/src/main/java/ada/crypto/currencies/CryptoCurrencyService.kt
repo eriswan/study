@@ -6,6 +6,6 @@ import retrofit2.http.GET
 interface CryptoCurrencyService {
 
     @GET("home")
-    fun home(): Call<HomePayload>
+    fun home(): Call<HomePayload?>
 
 }
